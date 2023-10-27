@@ -7,6 +7,8 @@ export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
 }
 
+// dark
+
 type FlyAndScaleParams = {
     y?: number;
     x?: number;
